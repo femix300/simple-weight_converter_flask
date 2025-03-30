@@ -1,1 +1,1 @@
-A simple weight converter app creates with Flask, HTML and CSS
+A simple weight converter app created with Flask, HTML and CSS
