@@ -8,8 +8,6 @@ A simple web application built with Flask that converts weights between **KG**, 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Weight Conversion:**  
