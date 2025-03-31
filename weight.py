@@ -26,8 +26,7 @@ converter = {
     },
 }
 
-results = {key: round(func(weight), 2)
-           for key, func in converter[unit].items()}
+results = {key: round(func(weight), 2) for key, func in converter[unit].items()}
 
 print(f"\nConverted Weights ({weight})({unit}):")
 
