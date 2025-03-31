@@ -7,7 +7,6 @@ A simple web application built with Flask that converts weights between **KG**, 
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -60,19 +59,6 @@ To run the Flask Weight Converter app on your local machine:
     python app.py
 ```
 Then, navigate to http://127.0.0.1:5000 in your web browser to use the app.
-
-
-## Project Structure
-
-my_flask_app/
-├── app.py               # Main Flask app with conversion logic
-├── requirements.txt     # List of dependencies (Flask, gunicorn)
-├── Procfile             # Deployment configuration for Railway (or similar platforms)
-├── wsgi.py              # Optional: For Gunicorn deployment
-├── templates/
-│   └── index.html       # HTML template for the web interface
-└── static/
-    └── style.css        # Custom CSS for styling the app
 
 
 ## Deployment
